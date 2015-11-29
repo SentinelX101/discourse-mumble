@@ -1,8 +1,9 @@
 # name: Mumble
 # about: Displays channel and user information from a Mumble server
-# version: 0.2.3
+# version: 0.2.4
 # authors: Nuno Freitas (nunofreitas@gmail.com)
-# url: https://github.com/nunof07/discourse-mumble
+# minor-edit-maker: Sam Moore (smoore.mr@gmail.com)
+# url: https://github.com/smoore-mr/discourse-mumble
 
 register_asset "javascripts/mumble.js"
 register_asset "stylesheets/mumble.scss"
