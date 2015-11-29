@@ -1,4 +1,4 @@
-# Mumble plugin for Discourse
+# Mumble plugin for Discourse - with minor edits
 A Mumble Viewer plugin for Discourse that displays channel and user information.
 - [Discourse] is an open source discussion platform.
 - [Mumble] is an open source voice chat software.
@@ -27,7 +27,6 @@ Follow the guide on how to [Install a Plugin][plugin] for Discourse but add this
 Then go to Admin > Plugins and choose Mumble settings:
 - *mumble_interval*: the interval between information refreshes
 - *mumble_cvp*: the URL to the [Channel Viewer Protocol][cvp] service
-- *mumble_xml*: whether the URL to the CVP service is for XML, otherwise will use JSON
 - *mumble_show_empty_channels*: whether to display empty channels
 
 [plugin]: https://meta.discourse.org/t/install-a-plugin/19157
