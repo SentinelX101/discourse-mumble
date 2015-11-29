@@ -39,12 +39,7 @@ after_initialize do
                 result = {}
             else
                 response = Net::HTTP.get_response(URI.parse(SiteSetting.mumble_cvp))
-                
-                if SiteSetting.mumble_xml
-                    result = Hash.from_xml(response.body).to_json
-                else
-                    result = JSON.parse(response.body)
-                end
+                result = JSON.parse(response.body)
             end
             
             render json: result
