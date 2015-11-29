@@ -1,7 +1,7 @@
 plugins:
   mumble_enabled:
-    default: false
-    client: false
+    default: true
+    client: true
   mumble_interval:
     default: 60000
     client: true
