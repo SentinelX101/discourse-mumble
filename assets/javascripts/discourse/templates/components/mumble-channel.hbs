@@ -3,13 +3,13 @@
 		<i class="{{iconClass}} mumble-channel-icon"></i> <a href {{action "expand"}} class="mumble-channel-name">{{data.name}}</a>
 		<section {{bind-attr class="expanded::hidden :mumble-channel-content"}}>
 			<ul>
-			{{#each c in children}}
-				{{mumble-channel data=c}}
+			{{#each user in usersList}}
+				{{mumble-user data=user}}
 			{{/each}}
 			</ul>
 			<ul>
-			{{#each user in usersList}}
-				{{mumble-user data=user}}
+			{{#each c in children}}
+				{{mumble-channel data=c}}
 			{{/each}}
 			</ul>
 		</section>
