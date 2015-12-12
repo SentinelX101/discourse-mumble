@@ -47,3 +47,16 @@
 		}
 	}
 }
+.d-header .icons {
+	.unread-private-messages {
+		left: auto;
+		right: 27px;
+	}
+	.flagged-posts {
+		left: auto;
+		right: 69px;
+	}
+	> div.ember-view {
+		float: left;
+	}
+}
